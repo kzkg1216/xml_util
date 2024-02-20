@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/" />
+  <default revision="master"
+           remote="github" />
+
+  <project name="ataka/greader-sbm"
+           path="greader-sbm" remote="github" />
+  <project path="greader-show-original2"
+           name="ataka/greader-show-original" remote="github" />
+  <project path="greader-show-develop"
+           name="ataka/greader-show-develop" remote="github" />
+  <project path="greader-show-release"
+           name="ataka/greader-show-release" remote="github" />
+</manifest>
